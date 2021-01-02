@@ -57,7 +57,7 @@ const Blogcomp = () => {
     const classes=useStyle();
     return (
         <>
-          <AppBar className={classes.appbar} position="static">
+          <AppBar className={classes.appbar} position="sticky">
           <Toolbar>
           <Typography variant="h4" color="secondary">
             Netflix
